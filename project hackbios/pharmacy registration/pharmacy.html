@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy </title>
+    <link rel="stylesheet" href="spharmacy.css">
+</head>
+<body>
+    <div class="blue">
+        <form action="pharmacy.php">
+            <h2> Pharmacy & Lab </h2>
+            <!----------name-------->
+            <tr>
+                <td> Pharmacy / lab Name</td>
+                <td><input type="text" Name ="name" id="pname" placeholder="Name" maxlength="45">
+                </td> 
+            </tr>
+<br><br>
+<!--------------owner name--------->
+<tr>
+    <td>Owner Name</td>
+       
+      <td><input type="text" Name ="name" id="pname" placeholder="Owner Name" maxlength="45">
+    </td>
+</tr>
+<br><br>
+<!-------contact No.-->
+<tr>
+    <td>Contact Number</td>
+    <td><input type="text" name="" maxlength="10" placeholder="Mobile Number"></td>
+</tr>
+<br><br>
+<!-------email id----->
+<tr>
+    <td>Email ID </td>
+    <td><input type="email" name="" placeholder="Email ID"></td>
+</tr>
+<br><br>
+<!--------Country------------>
+<tr>
+    <td> Select Country</td>
+    <td>
+        <select name="Country" id="Country">
+            <option value="---Select---">--Select---</option>
+            <option value="India">India</option>
+            <option value="USA">USA</option>
+            <option value="Other">Other</option>
+          </select>
+    </td>
+</tr>
+<br><br>
+<!--------Address------->
+<tr>
+    <td>Address</td>
+    <br><br>
+    <td><textarea name="Address" rows="10" cols="50"></textarea></td>
+</tr>
+<br><br>
+<!---------Valid id------->
+<tr>
+    <td>valid ID</td>
+   <td><input type="text" name="" maxlength="10" placeholder="valid ID"></td> 
+</tr>
+<br><br>
+<!--------Submit & Reset-------->
+<tr>
+    <td colspan="2" align ="center">
+        <input type="submit" value="submit">
+        <input type="Reset" value="Reset">
+    </td>
+</tr>
+        </form>
+    </div>
+</body>
+</html>

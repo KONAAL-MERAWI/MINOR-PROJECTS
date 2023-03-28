@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Universal Health  Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2> Registration For Patient</h2>
+    <div class="red">
+        <form action="/patient.php">
+        <tr>
+            <td>Profile Image </td>
+            <td>
+                <input type="file" id="myFile" name="filename">
+ 
+            </td>
+        </tr>
+        <br><br>
+        <!---------------Full Name----------->
+        <tr>
+            <td>Full Name </td>
+      <td><input type="text" Name ="name" id="pname" placeholder="Full Name" maxlength="45">
+        (Max 45 Character Allowed)
+    </td> 
+    </tr >
+    <br><br>
+    <!-----------Email ID---------->
+    <tr>
+        <td>Email ID</td>
+        <td><input type="email" name="" placeholder="Email ID"></td>
+    </tr>
+    &nbsp;
+    <!------------------Mobile No-------->
+    <tr>
+        <td>Mobile Number</td>
+        <td><input type="text" name="" maxlength="10" placeholder="Mobile Number">(10 digit Allowed)</td>
+    </tr>
+    <br><br>
+    <!---Gender----------->
+    <tr>
+        <td>Gender</td>
+        <td>
+            <input type="radio" name="Gender" value="Male"/> 
+            Male
+            <input type="radio" name="Gender" value="Female"/> Female
+        </td>
+    </tr>
+    <br><br>
+    <!-----------Date of Birth-->
+    <tr>
+        <td> Date Of BIrth </td>
+        <td>
+        
+        <input type="date" id="birthday" name="birthday"> 
+        </td>
+    </tr>
+    <br><br>
+    <!----------Blood Group--------->
+    <tr>
+        <td>Blood Group</td>
+        <td><input type="text" name="" placeholder="Blood Group "></td>
+    </tr>
+    <br><br>
+    <!--------Country------------>
+    <tr>
+        <td> Select Country</td>
+        <td>
+            <select name="Country" id="Country">
+                <option value="---Select---">--Select---</option>
+                <option value="India">India</option>
+                <option value="USA">USA</option>
+                <option value="Other">Other</option>
+              </select>
+        </td>
+    </tr>
+<br><br>
+<!------------------------- Address ---------------------------------->
+<tr>
+    <td>Address<br /><br /><br /></td>
+    <td><textarea name="Address" rows="10" cols="50"></textarea></td>
+    </tr>
+<br><br>
+<!--------Submit & Reset-------->
+<tr>
+    <td colspan="2" align ="center">
+        <input type="submit" value="submit">
+        <input type="Reset" value="Reset">
+    </td>
+</tr>
+</form>
+    </div>
+</body>
+</html>

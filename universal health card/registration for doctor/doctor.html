@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="doctor.css">
+    <title>Registration for Doctor</title>
+</head>
+<body>
+    <div class="registration-doctor">
+        <h1>registration form</h1>
+        <form action="#" method="post">
+             <!--------------------Full Name ------->
+             <p>Full Name:</p>
+             <input type="text" name="fullname" maxlength="50" placeholder="Full Name">
+             <!-----------mobile no.-->
+             <p>Mobile Number:</p>
+             <input type="text" name="mobilenumber" maxlength="10" placeholder="Mobile Number">
+         
+             <!-------Email ID-------->
+             <p>Email ID:</p>
+             <input type="email" name="emailid" placeholder="Email ID" maxlength="100">
+             <br><br>
+             <!-------Gender-->
+             <td>Gender: </td>
+             <select name="Gender" id="Gender">
+                 <option value="---Select---">--Select---</option>
+                 <option value="Male">Male</option>
+                 <option value="Fenale">Female</option>
+                 <option value="Other">Other</option>
+             </select>
+             
+                 <!-------date of birth-->
+                 <p>Date Of Birth</p>
+                 <input type="date" id="birthday" name="birthday"> 
+             
+                 <!-----------valid govt id.------->
+                 <p>Valid Govt. ID: </p>
+                 <input type="text" name="validgovt.id" placeholder="Valid Govt. ID">
+                 <input type="file" id="myFile" name="filename">
+                <!------specialization--------->
+                <p>Specialization : </p>
+                <input type="text" name="specialization" placeholder="Specialization">
+                <!--------------Experience------>
+                <p>Experience :</p>
+                <input type="text" name="experience" placeholder="Experience">(at least 7+ yrs)
+                <!-------Country---------->
+                <p>Country :</p>
+              <input type="text" name="Country" placeholder="Country">
+              <!-------address------->
+              <p>Address :</p>
+              <textarea name="Address" rows="3" cols="55"></textarea>
+              <button type="submit">Registration</button>
+        </form>
+    </div>
+</body>
+</html>

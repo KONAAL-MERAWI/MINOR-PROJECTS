@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+body {
+    background: url('./bg8.jpg') no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    color: aliceblue;
+}    
+
+.registration-doctor {
+    position: absolute;
+    top: 72%;
+    bottom: -125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   background-color: rgba(57, 56, 56, 0.5);
+    width: 40%;
+    padding-left: 100px;
+    margin-top: 3%;
+    margin-bottom: auto;
+}
+
+.registration-doctor h1 {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.registration-doctor p {
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+.registration-doctor input {
+    font-size: 15px;
+    padding: 10px 10px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-doctor td{
+    font-size: 18px;
+    margin: 10px ,0;
+} 
+
+.registration-doctor select{
+    font-size: 15px;
+    padding: 10px 10px;
+    width: 20%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-doctor button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 ;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.registration-doctor button:hover {
+    color: red;
+}

@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-image: url("bg14.jpg")  ;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    color: #fff;
+   
+}
+
+.registration-pharmacy {
+    position: absolute;
+    top: 60%;
+    bottom: -100%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   background-color: rgba(57, 56, 56, 0.5);
+    width: 40%;
+    padding-left: 100px;
+    margin-top: 5%;
+}
+
+.registration-pharmacy h1 {
+    font-size: 35px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.registration-pharmacy p {
+    font-size: 18px;
+    margin: 16px 0;
+}
+
+.registration-pharmacy input {
+    font-size: 15px;
+    padding: 10px 10px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+
+
+.registration-pharmacy button{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0 ;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 5px;
+    background-color: #fff;
+
+}
+
+.registration-pharmacy button:hover {
+    color: red;
+}
